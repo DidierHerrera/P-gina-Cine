@@ -2,18 +2,22 @@
   margin: 0;
   padding: 0;
 }
+header{
+  display: flex;
+  align-items: center;
+}
 nav{
-  width: 100%;
+  width: 1020px;
   text-align: center;
 }
 nav ul li {
   display: inline-block;
 }
 a{
-  padding: 20px 30px;
+  padding: 10px 30px;
   display: inline-block;
   color: black;
-  font-family: 'Coiny', cursive;
+font-family: 'Boogaloo', cursive;
 }
 nav ul li a:hover{
   border-bottom: solid white 4px;
@@ -21,8 +25,20 @@ nav ul li a:hover{
   background-color: #1E90FF;
 }
 .active {
-  border-bottom: solid white 4px;
+
 }
-.icono{
-display: inline-block;
+body{
+  background-color: lightgray;
+}
+div{
+  width: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+span{
+  position: absolute;
+  left: 335px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
 }
