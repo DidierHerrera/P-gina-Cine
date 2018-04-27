@@ -3,9 +3,7 @@
   padding: 0;
 }
 nav{
-  margin-top: 150px;
   width: 100%;
-  background-color: #00BFFF;
   text-align: center;
 }
 nav ul li {
@@ -14,8 +12,7 @@ nav ul li {
 a{
   padding: 20px 30px;
   display: inline-block;
-  text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Coiny', cursive;
 }
 nav ul li a:hover{
@@ -25,5 +22,7 @@ nav ul li a:hover{
 }
 .active {
   border-bottom: solid white 4px;
-  background-color: #1E90FF;
+}
+.icono{
+display: inline-block;
 }
