@@ -119,14 +119,25 @@ footer{
   background-color: black;
 }
 footer article{
+  display: table;
   position: absolute;
   display: table;
   width: 250px;
   height: 60px;
-  margin: 30px 47%;
+  margin: 30px 50%;
 }
 footer article img{
   width: 30px;
   height: 30px;
   align-self: center;
+}
+h5{
+
+  color: white;
+  text-align: center;
+}
+h6{
+  color: white;
+  margin-right: 100px;
+  margin-top: 50px;
 }
