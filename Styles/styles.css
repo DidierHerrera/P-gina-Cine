@@ -17,7 +17,7 @@ a{
   padding: 10px 30px;
   display: inline-block;
   color: black;
-font-family: 'Boogaloo', cursive;
+  font-family: 'Boogaloo', cursive;
 }
 nav ul li a:hover{
   border-bottom: solid white 4px;
@@ -41,33 +41,76 @@ span{
 }
 .slider{
   width: 100%;
+  position: relative;
+  height: 70vh;
   margin: auto;
   overflow: hidden;
 }
-.slider ul{
-  padding: 0;
-  display: flex;
-  width: 400%;
-  animation: cambio 20s infinite ;
-  animation-direction: inherit;
-}
-.slider li{
-  list-style: none;
-  width: 100%;
+.slider .content {
+  animation: cambio 20s infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400vw;
 }
 .slider img{
-  width: 100%;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.slider img:nth-child(1) {
+  left: 0;
+}
+.slider img:nth-child(2) {
+  left: 100vw;
+}
+.slider img:nth-child(3) {
+  left: 200vw;
+}
+.slider img:nth-child(4) {
+  left: 300vw;
 }
 @keyframes cambio{
-  0% {margin-right: 0;}
-  20% {margin-right: 0;}
+  0% {transform: translateX(0);}
+  20% {transform: translateX(0);}
 
-  25% {margin-right: -100%}
-  45% {margin-right: -100%}
+  25% {transform: translateX(-100vw);}
+  45% {transform: translateX(-100vw);}
 
-  50% {margin-right: -200%}
-  70% {margin-right: -200%}
+  50% {transform: translateX(-200vw);}
+  70% {transform: translateX(-200vw);}
 
-  75% {margin-right: -300%}
-  100% {margin-right: -300%}
+  75% {transform: translateX(-300vw);}
+  100% {transform: translateX(-300vw);}
+}
+h1{
+  color: red;
+  margin-top: 20px;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
+section{
+  height: 480px;
+  background: black;
+  display: flex;
+}
+section>article>img{
+  width: 300px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+h4{
+  color: white;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+footer{
+  margin-top: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: black;
 }
