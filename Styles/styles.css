@@ -130,13 +130,14 @@ footer article img{
   height: 30px;
   align-self: center;
 }
+footer article:nth-child(2){
+  margin-top: 100px;
+  margin-left: 45%;
+}
 h5{
-
   color: white;
-  text-align: center;
 }
 h6{
   color: white;
-  margin-right: 100px;
-  margin-top: 50px;
+  text-align: center;
 }
