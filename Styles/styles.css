@@ -28,7 +28,7 @@ body{
   background-color: lightgray;
 }
 div{
-  width: 400px;
+  width: 500px;
   position: relative;
   display: flex;
   align-items: center;
@@ -119,7 +119,6 @@ footer{
   background-color: black;
 }
 footer article{
-  display: table;
   position: absolute;
   display: table;
   width: 250px;
