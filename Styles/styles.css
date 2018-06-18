@@ -106,6 +106,33 @@ section>article>img{
   margin-left: 50px;
   margin-top: 20px;
 }
+section>article>.hover{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  transform: scale(0);
+  background-color: rgba(0, 0, 0, .7);
+  transition-duration: 0s;
+  width: 300px;
+  height: 400px;;
+}
+section>article:hover>.hover{
+  transform: scale(1);
+  transition-duration: 1s;
+}
+section>article>.hover>a>img{
+  width: 70px;
+  height: 70px;
+  margin-top: 70%;
+}
+section>article>.hover>a>h4{
+  position: absolute;
+  color: #19BCEC;
+  top: 75%;
+  left: 40%;
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+}
 h4{
   color: white;
   font-family: 'Acme', sans-serif;
