@@ -32,7 +32,7 @@ nav ul li a:hover{
   color: #19BCEC;
 }
 body{
-  
+
 }
 div{
   width: 280px;
@@ -186,4 +186,36 @@ h6{
   height: 400px;
   margin-left: 50px;
   margin-top: 20px;
+}
+.sectkingsman{
+  width: 100%;
+  height: 720px;
+  position: absolute;
+}
+.sectkingsman>video{
+  width: 700px;
+  height: 600px;
+  margin-left: 600px;
+  margin-top: -86px;
+}
+.sectkingsman>img{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.sectkingsman>h1{
+  position:absolute;
+  top: 620px;
+  width: 400px;
+  font-family: 'Abril Fatface', cursive;
+}
+.sectkingsman>article{
+  position: absolute;
+  left: 600px;
+  top: 450px;
+  width: 700px;
+}
+.sectkingsman>article>p{
+  color: white;
+  font-family: 'Abril Fatface', cursive;
 }
