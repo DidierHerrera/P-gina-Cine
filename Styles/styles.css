@@ -5,6 +5,7 @@
 header{
   display: flex;
   align-items: center;
+  background-color: lightgray;
 }
 nav{
   width: 1020px;
@@ -20,12 +21,18 @@ header nav ul li a{
   font-family: 'Boogaloo', cursive;
 }
 nav ul li a:hover{
-  border-bottom: solid white 4px;
+  border-bottom: solid yellow 4px;
   box-sizing: border-box;
-  background-color: #f0ff1e;
+  background-color:black;
+  color: #19BCEC
+}
+.active{
+  background-color: black;
+  border-bottom: yellow solid 4px;
+  color: #19BCEC;
 }
 body{
-  background-color: lightgray;
+  
 }
 div{
   width: 280px;
@@ -33,16 +40,15 @@ div{
   display: flex;
   align-items: center;
 }
-span{
-  position: absolute;
-  left: 335px;
-  font-family: 'Shrikhand', cursive;
-  font-size: 40px;
+.icono{
+  width: 250px;
+  height: 155px;
+  margin-left: 139px;
 }
 .slider{
   width: 100%;
   position: relative;
-  height: 80vh;
+  height: 90vh;
   margin: auto;
   overflow: hidden;
 }
@@ -86,7 +92,7 @@ span{
   100% {transform: translateX(-300vw);}
 }
 h1{
-  color: #4A0650;
+  color:  rgb(161, 6, 6);
   margin-top: 20px;
   font-family: 'Shrikhand', cursive;
   text-align: center;
@@ -124,18 +130,19 @@ section>article>.hover>a>img{
   width: 70px;
   height: 70px;
   margin-top: 70%;
+  margin-left: auto;
 }
 section>article>.hover>a>h4{
   position: absolute;
-  color: #19BCEC;
+  color: yellow;
   top: 75%;
   left: 40%;
   font-size: 25px;
   font-family: 'Acme', sans-serif;
 }
 h4{
-  color: white;
-  font-family: 'Acme', sans-serif;
+  color: floralwhite;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
 }
 
